@@ -27,6 +27,13 @@ header {
     width: 100%;
 }
 
+.menu>p {
+    font-family: Helvetica;
+    font-size: 1.5.em;
+    margin: 1em;
+    text-align: center;
+}
+
 .menu>a {
     margin-right: 1rem;
 }
@@ -77,4 +84,20 @@ header {
 
 .menu {
     margin-bottom: 1em;
+}
+
+/* ----------------------------- Section contact ---------------------------- */
+
+label {
+    text-align: center;
+    color: goldenrod;
+    font-family: 'Farsan';
+    font-size: 2em;
+}
+
+.check {
+    color: black;
+    font-size: 1em;
+    font-family: Helvetica;
+    text-align: center;
 }
