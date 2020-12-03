@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head th:fragment="head">
+    <meta charset="UTF-8">
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <meta content="" name="description">
+    <meta content="Accueil" name="ysp">
+    <meta content="Accueil, Bootstrap, Admin, Template, Theme, Responsive, Fluid, Retina" name="keyword">
+    <title>Interface admin</title>
+    <!-- Import de W3 CSS -->
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link rel="stylesheet" href="../../css/admin.css">
+</head>
+
+<body>
+    <!-- **********************************************************************************************************************************************************
+	TOP BAR CONTENT
+	*********************************************************************************************************************************************************** -->
+    <!--header start-->
+    <header class="w3-bar" th:fragment="header">
+        <button class="w3-bar-item w3-button w3-teal w3-xlarge w3-hide-large" onclick="w3_open()">&#9776;</button>
+    </header>
+    <!--header end-->
+    <!-- **********************************************************************************************************************************************************
+	 SIDEBAR MENU
+	*********************************************************************************************************************************************************** -->
+    <!--sidebar start-->
+    <aside class="w3-sidebar w3-bar-block w3-collapse w3-card w3-col" id="mySidebar">
+        <button class=" w3-bar-item w3-button w3-large w3-hide-large" onclick="w3_close()">Fermer &times;</button>
+        <!-- sidebar menu start-->
+
+
+        <a class="w3-bar-item w3-center" href="../../../index.html">
+            <img class="w3-circle" src="../../img/logo2.png" style="width:7rem;">
+            <h5 class="navTitle">Comme à la maison</h5>
+        </a>
+        <a class="w3-bar-item w3-button w3-padding-16" href="./admin.html">
+            <span>Accueil</span>
+        </a>
+        <a class="w3-bar-item w3-button w3-padding-16" href="./admin_jour.html">
+            <span>Editer le plat du jour</span>
+        </a>
+        <a class="w3-bar-item w3-button w3-padding-16" href="./admin_menus.html">
+            <span>Editer les menus</span>
+        </a>
+        <a class="w3-bar-item w3-button w3-padding-16" href="./admin_plats.html">
+            <span>Editer les plats</span>
+        </a>
+        <a class="w3-bar-item w3-button w3-padding-16" href="./admin_vins.html">
+            <span>Editer les vins</span>
+        </a>
+        <a class="w3-bar-item w3-button w3-padding-16" href="./admin_coordonnees.html">
+            <span>Modifier les coordonnées</span>
+        </a>
+        <a class="w3-bar-item w3-button w3-padding-16 w3-deep-purple" href="../../../index.html">
+            <span>
+                Se déconnecter
+            </span>
+        </a>
+    </aside>
+    <!--sidebar end-->
+
+    <!-- **********************************************************************************************************************************************************
+	MAIN CONTENT
+	*********************************************************************************************************************************************************** -->
+    <!--main content start-->
+    <section class="reste w3-main">
+        <section class="w3-container w3-center">
+            <h1>Editer le plat du jour</h1>
+        </section>
+
+        <!-- ---------------------------- Card du menu ----------------------------- -->
+
+        <section class="w3-container w3-margin-top w3-half">
+            <div class="w3-card-4 w3-margin-bottom">
+                <div class="w3-display-container w3-text-white">
+                    <img src="../../img/assiette-variee.jpg" alt="Lights" style="width:100%">
+                    <div class="w3-large w3-display-bottomleft w3-padding">Un verre de vin offert</div>
+                    <div class="w3-xlarge w3-display-bottomright w3-padding">14€</div>
+                </div>
+                <div class="w3-row">
+                    <div class="w3-third w3-center">
+                        <h3>Entrée</h3>
+                        <ul class="w3-ul">
+                            <li>Pain</li>
+                            <li>Rillettes</li>
+                            <li>beurres</li>
+                        </ul>
+                    </div>
+                    <div class="w3-third w3-center">
+                        <h3>Plats</h3>
+                        <ul class="w3-ul">
+                            <li>Rillons au fromage</li>
+                            <li>Assiette végétarienne</li>
+                            <li>Poisson cru</li>
+                        </ul>
+
+                    </div>
+                    <div class="w3-third w3-center w3-margin-bottom">
+                        <h3>Dessert</h3>
+                        <ul class="w3-ul">
+                            <li>Mousse au chocolat</li>
+                            <li>Fromages</li>
+                        </ul>
+
+                    </div>
+                </div>
+            </div>
+
+        </section>
+
+    </section>
+    <script src="../../js/main.js"> </script>
+</body>
+
+</html>
