@@ -23,6 +23,12 @@
     margin-top: 15%;
 }
 
+.title {
+    font-family: 'Great Vibes';
+    font-size: 2em;
+    text-align: center;
+}
+
 @media screen and (max-width: 900px) {
     #mySidebar {
         min-width: 50vw;
