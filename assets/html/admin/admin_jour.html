@@ -83,25 +83,26 @@
                     <div class="w3-third w3-center">
                         <h3 class="title">Entrée</h3>
                         <ul class="w3-ul">
-                            <li>Pain</li>
-                            <li>Rillettes</li>
-                            <li>beurres</li>
+                            <li>R......</li>
+                            <li>R......</li>
+                            <li>R......</li>
                         </ul>
                     </div>
                     <div class="w3-third w3-center">
                         <h3 class="title">Plats</h3>
                         <ul class="w3-ul">
-                            <li>Rillons au fromage</li>
-                            <li>Assiette végétarienne</li>
-                            <li>Poisson cru</li>
+                            <li>R......</li>
+                            <li onclick="document.getElementById('id01').style.display='block'">Pavée de saumon maison
+                            </li>
+                            <li>R......</li>
                         </ul>
 
                     </div>
                     <div class="w3-third w3-center w3-margin-bottom">
                         <h3 class="title">Dessert</h3>
                         <ul class="w3-ul">
-                            <li>Mousse au chocolat</li>
-                            <li>Fromages</li>
+                            <li>R......</li>
+                            <li>R......</li>
                         </ul>
 
                     </div>
@@ -109,6 +110,9 @@
             </div>
 
         </section>
+
+        <!-- ------------------------ Section du formulaire ------------------------ -->
+
         <section class="w3-container w3-margin-top w3-rest">
             <form action="#">
                 <section class="w3-row">
@@ -172,6 +176,38 @@
                 </div>
             </form>
         </section>
+
+        <!-- -------------------------- Le Modal du plat --------------------------- -->
+
+        <div id="id01" class="w3-modal">
+            <div class="w3-modal-content">
+                <span onclick="document.getElementById('id01').style.display='none'"
+                    class="w3-button w3-display-topright">&times;</span>
+                <div class="w3-container w3-card-4 w3- w3-center">
+                    <div class="w3-row w3-margin">
+                        <img class="modalImg w3-image" src="../../img/poisson3.jpg" alt="Lights">
+                    </div>
+                    <div class="w3-row">
+                        <h3 class="title">Pavée de saumon maison</h3>
+                        <p class="w3-padding w3-center">Jolie pavé de saumon grillé à la plancha sur un lit
+                            d'épinards à
+                            la crême
+                            ciboulette.
+                        </p>
+                    </div>
+                    <div class="w3-row w3-center">
+                        <a href="#" class="w3-button w3-deep-purple w3-center">Commander</a>
+                    </div>
+                    <div class="w3-display-container">
+
+                        <p class="w3-display-left w3-padding-small w3-white">A emporter : 12€</p>
+                        <p class="w3-display-right w3-padding-small w3-white">Sur place : 14€</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- ------------------------ Fin du modal du plat ------------------------- -->
 
     </section>
     <script src="../../js/main.js"> </script>
