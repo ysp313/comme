@@ -20,22 +20,12 @@ header {
 
 .titlesite {
     font-family: 'Farsan';
+    text-transform: uppercase;
     font-size: 1.4rem;
 }
 
-.menu {
-    width: 100%;
-}
-
-.menu>p {
-    font-family: Helvetica;
-    font-size: 1.5.em;
-    margin: 1em;
-    text-align: center;
-}
-
-.menu>a {
-    margin-right: 1rem;
+.linkMenu {
+    color: grey;
 }
 
 .introduction {
@@ -48,11 +38,18 @@ header {
     margin-bottom: 2em;
 }
 
-#pos {
-    height: 25vh;
+/* ------------------------- Section "plat du jour" ------------------------- */
+
+.menu {
+    width: 100%;
 }
 
-/* ------------------------- Section "plat du jour" ------------------------- */
+.menu>p {
+    font-family: Helvetica;
+    font-size: 1.5.em;
+    margin: 1em;
+    text-align: center;
+}
 
 .title {
     padding: 0.5em;
@@ -86,18 +83,28 @@ header {
     margin-bottom: 1em;
 }
 
+.slides {
+    display: none
+}
+
 /* ----------------------------- Section contact ---------------------------- */
 
 label {
+    font-family: 'Great Vibes';
+    font-size: 1.5em;
     text-align: center;
-    color: goldenrod;
-    font-family: 'Farsan';
-    font-size: 2em;
+    padding: 0.5em;
 }
 
 .check {
     color: black;
     font-size: 1em;
     font-family: Helvetica;
+    text-align: center;
+}
+
+.title {
+    font-family: 'Great Vibes';
+    font-size: 3em;
     text-align: center;
 }
